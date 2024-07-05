@@ -1,0 +1,29 @@
+import custom from "./custom.module.css"
+import para2 from "./para2.module.css"
+
+export default function Home() {
+
+  return (
+    <div>
+      <div class={custom.main} >
+        Readable and Maintainable Code: CSS Modules encourage a component-based approach to styling,
+        where styles are co-located with their respective components.
+        This improves code organization and readability
+        since developers can easily identify which styles belong to which component.
+      </div>
+
+      <div class={para2.main} >
+        Local Composition: CSS Modules allow you to use CSS features
+        like composes to compose styles from other modules locally within your component.
+        This promotes code reusability without resorting to complex
+      </div>
+
+
+      <div class={custom.main} >
+        Local Composition: CSS Modules allow you to use CSS features
+        like composes to compose styles from other modules locally within your component.
+        This promotes code reusability without resorting to complex
+      </div>
+    </div>
+  );
+}
