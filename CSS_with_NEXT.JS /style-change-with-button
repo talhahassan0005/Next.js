@@ -1,0 +1,22 @@
+'use client'
+import Image from "next/image";
+import styles from "./page.module.css";
+import { useState } from "react";
+
+
+export default function Home() {
+const [paragraph,setparagraph]=useState({background:"yellow"});
+  return (
+    <main >
+   
+        <p style={paragraph}>In Next.js, dynamically changing styles based on user interactions,
+           such as clicking a button, can be achieved through a combination of state management and CSS classes.
+            To implement this, you typically start by defining
+             a state variable to track the current style or a boolean state that toggles the style.
+           For example, using React's useState hook:</p>
+ 
+      <br />
+      <button onClick={()=>setparagraph({background:"Red"})}>Update-style </button>
+    </main>
+  );
+}
