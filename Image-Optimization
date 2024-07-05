@@ -1,0 +1,24 @@
+import Image from "next/image";
+import profile from '../../public/next.svg';
+
+export default function Home() {
+
+  return (
+    <div>
+      <p>Next.js's next/image component optimizes images for various screen sizes and formats,
+        enabling lazy loading and automatic accessibility improvements,
+        enhancing both performance and user experience.<br></br>
+        Example of this is below:</p>
+<br></br>
+
+      <Image src={profile}
+        width={200}
+        height={200}
+      />
+    </div>
+  );
+}
+
+
+
+
