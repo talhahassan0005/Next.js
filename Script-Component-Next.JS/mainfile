@@ -1,0 +1,17 @@
+'use client'
+import Script from "next/script"
+export default function page() {
+
+    return (
+        <div >
+            <script
+            src="/location.js"
+           onLoad={()=>{
+            console.log("file loaded");
+           }}  />
+            <h1>Get user Geolocation</h1>
+        </div>
+    )
+}
+
+
