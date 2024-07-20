@@ -1,0 +1,51 @@
+Description
+This project demonstrates how to utilize Next.js to create and consume static APIs. It covers setting up API endpoints, fetching data from these endpoints, and testing API functionality.
+
+Features
+Call Next.js Static API
+
+Make API
+Set up static API endpoints using Next.js.
+
+Call User List API
+Fetch a list of users from the created API endpoints.
+Display Data
+Render the fetched user data on the frontend.
+
+Call User Detail API
+Implement an endpoint to fetch detailed information for a specific user.
+
+Display User Data
+Display detailed user information on the frontend.
+
+Test API
+Ensure API endpoints are functioning correctly and returning expected data.
+
+Make Post Method API
+Make Post API Function
+Develop API endpoints that support POST requests.
+
+Write API Response
+Define responses for POST requests to handle success and error scenarios.
+
+Get Request Params
+Extract and process parameters sent with POST requests.
+
+Apply Validation Checks
+Implement validation logic to ensure data integrity and security.
+
+Test Post with Postman
+Verify POST functionality using Postman or a similar tool to validate API behavior.
+
+
+Usage
+Clone the repository.
+Install dependencies with npm install.
+Start the development server with npm run dev.
+Navigate to http://localhost:3000 to see the application in action.
+
+
+Technologies Used
+Next.js
+JavaScript/TypeScript
+Postman (for API testing)
